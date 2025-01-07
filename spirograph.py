@@ -22,7 +22,8 @@ def draw_spirograph(size_of_gap):
         tim.circle(100)
         tim.setheading(tim.heading() + size_of_gap)
 
-draw_spirograph(3)
+choice = int(input("Size of gape? "))
+draw_spirograph(choice)
 
 
 screen = t.Screen()
